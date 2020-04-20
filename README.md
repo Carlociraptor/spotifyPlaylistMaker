@@ -17,9 +17,8 @@
 - Playlist will save to your personal spotify account with the tracks you selected and the name you chose to give the playlist
 
 # Current issues
-1. The web app cannot be hosted due to a refresh error I'm trying to solve.
-2. When the 'search' button is used it will fail initially, re-entering the search and clicking again will make it function.
-- SOLVED: Clicking the search button fires off the authentication to spotify's server and will redirect the user to the authenticted page (currently the only page)
+1. The web app cannot be hosted due to a refresh error I'm trying to solve. When the 'search' button is used it will fail initially and refresh the page, re-entering the search and clicking again will make it function.
+- SOLVED: Clicking the search button fires off the authentication to spotify's server and will redirect the user to the authenticted page (currently the only page available) thus appearing as a refresh.
 
 # Planned Updates
 1. Filter support for results
