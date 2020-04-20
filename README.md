@@ -3,10 +3,11 @@
 
 # Getting Started
 1. Download the project and use a terminal to navigate to the /spotifyPlaylistMaker folder
-2. Open the folder in your preferred editor and navigate to src/util/Spotify.js
-3. Add a variable at the top of the file `const clientID = ' '` and inside the empty string enter your spotify developer client ID
-4. In your terminal type `npm start` within the project folder. This will start the react local server and open your browser to localhost:3000
-5. Play around with it!
+2. type `npm install`
+3. Open the folder in your preferred editor and navigate to src/util/Spotify.js
+4. Add a variable at the top of the file `const clientID = ' '` and inside the empty string enter your spotify developer client ID
+5. In your terminal type `npm start` within the project folder. This will start the react local server and open your browser to localhost:3000
+6. Play around with it!
 
 # Current issues
 1. The web app cannot be hosted due to a refresh error I'm trying to solve.
