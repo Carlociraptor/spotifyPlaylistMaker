@@ -9,6 +9,13 @@
 5. In your terminal type `npm start` within the project folder. This will start the react local server and open your browser to localhost:3000
 6. Play around with it!
 
+# Expected Program flow
+- Using the search bar will prompt a spotify authentication window
+- Once authenticated using the search bar will show results on the left of the window
+- Clicking the `+` key will add the song to an empty playlist (alternatively clicking the `-` will remove it)
+- At this point you can click 'Save Playlist' and it will save, or you can click the playlist name to rename your playlist
+- Playlist will save to your personal spotify account with the tracks you selected and the name you chose to give the playlist
+
 # Current issues
 1. The web app cannot be hosted due to a refresh error I'm trying to solve.
 2. When the 'search' button is used it will fail initially, re-entering the search and clicking again will make it function.
